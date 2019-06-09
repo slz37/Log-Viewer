@@ -146,8 +146,8 @@ def create_trendline(self):
         #Plot
         self.ax.plot(xdata, gaussian(xdata, *popt), label = "Gaussian Fit {}".format(yvarunsplit))
     elif fit_type == "Exponential":
-        #Get Fit Coefficients
-        popt, pcov = curve_fit(ex, xdata, ydata)
+        #Get Fit Coefficients - low guess for b
+        popt, pcov = curve_fit(ex, xdata, ydata, p0 = (1, 1E-5))
 
         #Plot
         self.ax.plot(xdata, ex(xdata, *popt), label = "Exponential Fit {0:s}\n ({1:.4g})e$^{{({2:.4g})x}}$".format(yvarunsplit, popt[0], popt[1]))

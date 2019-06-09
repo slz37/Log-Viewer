@@ -34,11 +34,11 @@ if __name__ == "__main__":
         quad = "%.3f" % (6 * (t / 8)**2 - 5 * t - 10 + 10 * np.random.normal())
         gaus = "%.3f" % (gaussian(t, 300, 50, 10) + 10 * np.random.normal())
         nat = "%.3f" % (ln(t, 100, 5) + 10 * np.random.normal())
-        expon = "%.3f" % (ex(t / 150, 3, 6) + 10 * np.random.normal())
+        test = np.random.normal()
+        expon = "%.3f" % (ex(t, 3, 5E-2) + 10 * test)
 
         file.write("%.3f" % t + " " + lin + " " + quad + " " + \
                    gaus + " " + nat + " " + expon + "\n")
-        
 
     file.close()
     
