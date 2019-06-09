@@ -8,8 +8,11 @@ I've finished splitting the code up for readability, but I do not know if I have
 
 Known bugs: <br />
 `
-Removing trendline does not rescale plot. <br />
+Removing trendline does not rescale plot.
+
 Fitting exponential functions fails.
+
+Selecting a new file does not reload x-axis dropdown menu.
 `
 
 
