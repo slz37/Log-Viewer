@@ -6,6 +6,14 @@ Takes space delimited data with a header as seen in the sample log folder and al
 ## Future Plans
 I've finished splitting the code up for readability, but I do not know if I have fixed all bugs. There is probably more room for additional functionality, so that may come as well.
 
+Known bugs: <br />
+```
+Removing trendline does not rescale plot.
+Fitting exponential functions fails.
+Selecting a new file does not reload x-axis dropdown menu.
+```
+
+
 ## Sample output
 <img align="center" src="./Images/sample.PNG" alt="Example plot" title="Sample plots over time" hspace="20"/>
 
