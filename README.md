@@ -7,7 +7,7 @@ Takes space delimited data with a header as seen in the sample log folder and al
 I've finished splitting the code up for readability, but I do not know if I have fixed all bugs. There is probably more room for additional functionality, so that may come as well.
 
 ## Sample output
-<img align="center" src="./Images/sample2.PNG" alt="Example plot" title="Temperature plots over time" hspace="20"/>
+<img align="center" src="./Images/sample.PNG" alt="Example plot" title="Sample plots over time" hspace="20"/>
 
 ## Tkinter Design
 The tkinter design uses multiple embedded frames. In order to keep track of which is which, I made an image with a legend that describes which frame is where and what goes in it.
