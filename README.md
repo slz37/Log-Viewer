@@ -18,4 +18,4 @@ Selecting a new file does not reload x-axis dropdown menu.
 
 ## Tkinter Design
 The tkinter design uses multiple embedded frames. In order to keep track of which is which, I made an image with a legend that describes which frame is where and what goes in it.
-<img align="center" src="./Images/tkinter_layout.png" alt="Example plot" title="Temperature plots over time" hspace="20"/>
+<img align="center" src="./Images/tkinter_layout.png" alt="Example plot" title="" hspace="20"/>
